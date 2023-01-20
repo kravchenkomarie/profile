@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'San Francisco Pro';
+    src: url('fonts/san-francisco-pro/sf-pro-display-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'San Francisco Pro Rounded';
+    src: url('fonts/san-francisco-pro/sf-pro-rounded-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'San Francisco Pro';
+    src: url('fonts/san-francisco-pro/sf-pro-display-medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'San Francisco Pro';
+    src: url('fonts/san-francisco-pro/sf-pro-display-semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'San Francisco Pro';
+    src: url('fonts/san-francisco-pro/sf-pro-display-bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}

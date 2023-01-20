@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <title>ToDo</title>
+  </head>
+  <body>
+    <h1 class="todo__title">Это приложение для составления списка дел. <br> <br>
+      Я использовала axios для того, чтобы изначально список не был пустым -
+      сюда приходят "дела" после запроса на сервер. <br> <br>
+      Также вы можете добавить и свои новые дела:</h1>
+    <form id="form" class="wrapper">
+      <header>ToDo App</header>
+      <div class="input__field">
+        <input
+          type="text"
+          name="name"
+          autocomplete="off"
+          placeholder="Добавить новую задачу"
+          class="add__new-task"
+          required
+          />
+        <button type="submit" class="add__button" disabled>+</button>
+      </div>
+      <ul id="tasks" aria-label="Tasks" class="todoist"></ul>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="todo.js"></script>
+  </body>
+</html>
